@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.d-flex--center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c-black--radio {
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.container {
+    margin: 0 auto;
+    background: aqua;
+    width: 600px;
+    height: 1400px;
+    box-sizing: border-box;
+}
+.menu {
+    border: 5px solid gold;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 30px;
+}
+.blocks {
+    height: 5px;
+    width: 40px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.info {
+    background: grey;
+    border: 5px solid;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+.logo {
+    height: 50px;
+    width: 50px;
+    background: black;
+    column-gap: 10px;
+
+}
+.tools {
+    display: flex;
+    column-gap: 20px;
+}
+.smusz {
+    height: 5px;
+    width: 30px;
+    background: black;
+}
+.target {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+.lines {
+    column-gap: 30px;
+}
+.hero {
+    height: 25px;
+    width: 50px;
+    border: 2px solid black;
+}
+.book {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    width: 200px;
+    padding: 5px;
+}
+.text {
+}
+.button {
+    height: 25px;
+    width: 50px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+.main {
+    background: grey;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+}
+.wrap {
+    border: 2px solid aqua;
+    border-radius: 50px;
+    height: 180px;
+    width: 500px;
+}
+.upper {
+    padding-top: 10px;
+}
+.top {
+    height: 10px;
+    width: 40px;
+}
+.under {
+    padding-top: 10px;
+    column-gap: 10px;
+}
+.squares {
+    height: 100px;
+    width: 100px;
+    background: black;
+}
+.middle {
+    margin-top: 30px;
+    column-gap: 20px;
+}
+.center {
+    height: 190px;
+    width: 150px;
+}
+.circle {
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    background: grey;
+}
+.bottom {
+   flex-direction: column;
+    margin-top: 50px;
+    height: 600px;
+    width: 600px;
+    background: yellow;
+}
+.surname {
+    margin-top: 50px;
+}
+.name {
+    height: 20px;
+    width: 60px;
+}
+.several {
+    flex-wrap: wrap;
+    margin-top: 20px;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+.mush {
+    height: 100px;
+    width: 175px;
+    border-radius: 10px;
+    background: grey;
+}
+.floor {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    background: #ce17ff;
+    width: 600px;
+    align-items: self-end;
+}
+.left {
+    height: 100px;
+    width: 200px;
+}
+.right {
+    height: 100px;
+    width: 200px;
+}
+

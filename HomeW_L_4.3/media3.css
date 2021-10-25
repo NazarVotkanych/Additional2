@@ -15,7 +15,7 @@
     }
     .under {
         flex-direction: column;
-    }
+           }
 
     .bottom, .floor, .middle {
         flex-direction: column;
@@ -26,5 +26,4 @@
     .right {
         top: -15px;
     }
-
 }

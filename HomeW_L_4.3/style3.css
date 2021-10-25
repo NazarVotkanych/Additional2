@@ -11,11 +11,13 @@
     border: 2px solid black;
     border-radius: 10px;
 }
+.body {
+
+
+}
 .contoiner {
     margin: 0 auto;
     background: aqua;
-    width: 600px;
-    height: 1400px;
     box-sizing: border-box;
 }
 .menu {
@@ -87,7 +89,7 @@
 }
 .main {
     background: grey;
-    height: 200px;
+    /*height: 200px;*/
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -96,8 +98,8 @@
 .wrap {
     border: 2px solid aqua;
     border-radius: 50px;
-    height: 180px;
-    width: 500px;
+    /*height: 180px;*/
+    /*width: 500px;*/
 }
 .upper {
     padding-top: 10px;
@@ -132,8 +134,8 @@
 .bottom {
    flex-direction: column;
     margin-top: 50px;
-    height: 600px;
-    width: 600px;
+    /*height: 600px;*/
+    /*width: 600px;*/
     background: yellow;
 }
 .surname {
@@ -159,9 +161,9 @@
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
-    height: 500px;
+    /*height: 500px;*/
     background: #ce17ff;
-    width: 600px;
+    /*width: 600px;*/
     align-items: self-end;
 }
 .left {
@@ -187,5 +189,21 @@
     display: inline-block;
     width: 70%;
     height: 5px;
+    position: relative;
+}
+.info--button span::before,
+.info--button span::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: white;
+    position: absolute;
+}
+.info--button span::before {
+    top: -13px;
+}
+.info--button span::after {
+    top: 13px;
 }
 

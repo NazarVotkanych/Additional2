@@ -1,16 +1,30 @@
-@media screen and ( min-width : 360px) and (max-width: 500px) {
+@media screen and ( min-width : 300px) and (max-width: 400px) {
     .info{
         background: yellow;
     }
 }
 
-@media screen and ( max-width : 400px) {
+@media screen and ( max-width : 376px) {
     .tools{
         display: none;
     }
 }
-@media screen and ( max-width : 400px) {
+@media screen and ( max-width : 376px) {
     .info--button{
         display: flex;
     }
+    .under {
+        flex-direction: column;
+    }
+
+    .bottom, .floor, .middle {
+        flex-direction: column;
+    }
+    .floor {
+        margin-top: 20px;
+    }
+    .right {
+        top: -15px;
+    }
+
 }

@@ -1,0 +1,16 @@
+@media screen and ( min-width : 360px) and (max-width: 500px) {
+    .info{
+        background: yellow;
+    }
+}
+
+@media screen and ( max-width : 400px) {
+    .tools{
+        display: none;
+    }
+}
+@media screen and ( max-width : 400px) {
+    .info--button{
+        display: flex;
+    }
+}

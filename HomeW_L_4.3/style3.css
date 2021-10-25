@@ -11,7 +11,7 @@
     border: 2px solid black;
     border-radius: 10px;
 }
-.container {
+.contoiner {
     margin: 0 auto;
     background: aqua;
     width: 600px;
@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
+    position: relative;
 }
 .logo {
     height: 50px;
@@ -170,5 +171,21 @@
 .right {
     height: 100px;
     width: 200px;
+}
+.info--button {
+    width: 50px;
+    height: 50px;
+    background: purple;
+    position: absolute;
+    right: 20px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.info--button span {
+    background: white;
+    display: inline-block;
+    width: 70%;
+    height: 5px;
 }
 
